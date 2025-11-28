@@ -1,5 +1,3 @@
-const { connection } = require('mongoose');
-
 const {Pool} = require('pg');
 require('dotenv').config();
 
