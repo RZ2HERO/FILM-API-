@@ -40,8 +40,10 @@ app.post(`/auth/register`, async (req, res, next) => {
 });
 
 
+
+
 app.use((req, res) => {
-    res.status(500).json({error: `Rute tidak ditemukan`});
+    res.status(500).json({error: `Rute tidak ditemukan coba terus`});
 });
 
 app.use((err, req, res, next) => {
